@@ -1,0 +1,37 @@
+.container {
+    display: flex;              /* Включаем flexbox */
+    align-items: center;      /* Центрируем по вертикали */
+    justify-content: space-between; /* Размещаем элементы по краям */
+    position: fixed;          /* Фиксированное позиционирование */
+    top: 0;          /* Закрепляем вверху экрана */
+    background-color: #3a3a3a; /* Задаем фон, чтобы контент не просвечивал */
+    height: 100px;   /* Пример: фиксированная высота */
+    width: 90%;    /* Задаем ширину контейнера (меньше 100%) */
+    left: 5%;
+    border-bottom-left-radius: 20px;  /* Нижний левый угол */
+    border-bottom-right-radius: 20px; /* Нижний правый угол */
+    padding: 0 20px;  /* Добавим отступы слева и справа для красоты */
+    z-index: 3;
+
+}
+
+.site-title h1 {
+    color: #ffffff;
+    font-size: 25px;   /* Задает размер шрифта в пикселях */
+    margin: 0;        /* Убираем все стандартные отступы h1 */
+    padding-left: 20px;
+}
+
+nav ul {
+    color: rgb(255, 255, 255);
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+    display: flex;       /* Располагаем элементы списка в строку */
+    align-items: center; /* Выравниваем элементы списка по вертикали */
+}
+
+nav li {
+  margin-left: 20px;   /* Добавляем отступ слева между элементами списка */
+  padding-right: 20px;
+}

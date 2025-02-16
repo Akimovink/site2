@@ -1,0 +1,75 @@
+.photo {
+    display: flex;
+    justify-content: center; /* Центрировать по горизонтали */
+    align-items: center;    /* Центрировать по вертикали */
+    background-color: black;
+   
+    
+    
+}
+
+.photo img {
+    display: block;
+    position: sticky; 
+    width: 100%;
+    max-height: 65em;
+    object-fit: cover;
+    overflow: hidden;
+    mask-image: linear-gradient(to left,
+    rgba(0, 0, 0, 0.9) 0%,    /* Почти непрозрачный черный */
+    rgba(0, 0, 0, 0.5) 10%,   /* Быстрый переход в начале */
+    rgba(0, 0, 0, 0.2) 30%,   /* Более медленный переход дальше */
+    rgba(0, 0, 0, 0.1) 60%,
+    rgba(0, 0, 0, 0) 100%     /* Полностью прозрачный */
+  );
+  -webkit-mask-image: linear-gradient(to left,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.5) 10%,
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0.1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+}
+
+.book-button {
+    position: absolute;  /* Позиционируем кнопку абсолютно внутри контейнера */
+    top: 35%;          /* Размещаем кнопку по центру по вертикали */
+    left: 27%;         /* Размещаем кнопку по центру по горизонтали */
+    transform: translate(-50%, -50%); /* Центрируем кнопку точно */
+    z-index: 2;
+    margin-top: 200px;
+    font-size: 4em;
+}
+   
+   
+.creative {
+     font-family: serif; /* Или любой другой шрифт */
+     line-height: 1.5;      /* Высота строки */
+     letter-spacing: 5px;   /* Расстояние между буквами */
+     font-size: 70px;       /* Размер шрифта */
+     font-weight: 400;     /* Normal */
+     font-style: normal;    /* Normal */
+}
+
+.tattoo {
+    color: rgb(141, 141, 141);
+    font-family: "Poiret One", serif; /* Или любой другой шрифт */
+    font-weight: 400;             /* Normal */
+    font-style: normal;            /* Normal */
+    letter-spacing: 5px;   /* Расстояние между буквами */
+    margin-top: -75px;
+    font-size: 45px; 
+}
+
+.parlor {
+    font-size: 0.2em;
+    margin-top: -30px;
+    color: rgb(141, 141, 141);
+}
+
+
+.readmore {
+  font-size: 0.3em;
+  margin-top: 70px;
+}
