@@ -38,7 +38,7 @@
     left: 27%;         /* Размещаем кнопку по центру по горизонтали */
     transform: translate(-50%, -50%); /* Центрируем кнопку точно */
     z-index: 2;
-    margin-top: 200px;
+    margin-top: 2.5em;
     font-size: 4em;
 }
    
@@ -73,6 +73,8 @@
   font-size: 0.3em;
   margin-top: 70px;
 }
+
+
 
 @media (max-width: 900px) {
 .images {
