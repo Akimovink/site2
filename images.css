@@ -73,3 +73,10 @@
   font-size: 0.3em;
   margin-top: 70px;
 }
+
+@media (max-width: 900px) {
+.images {
+  margin-top: 20px;
+}
+ 
+}
